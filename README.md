@@ -6,7 +6,7 @@ from datetime import datetime
 import pythoncom
 
 # 🧠 Initialize Cohere API Client
-cohere_api_key = "uhWQnM9VxtljYtHcnFbsG3RkfZ2WlaPV5cvTen4J"
+cohere_api_key = ""
 cohere_client = cohere.Client(cohere_api_key)
 pythoncom.CoInitialize()
 # 🌀 Initialize Text-to-Speech Engine
